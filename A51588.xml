@@ -1,0 +1,462 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A copy of verses presented to all my worthy masters and mistrisses in the parish of St. Mary Newington-Buts, in Southwark by William Major, bell-man.</title>
+            <author>Major, William, bell-man.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1689</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 9 KB of XML-encoded text transcribed from 1 1-bit group-IV TIFF page image.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A51588</idno>
+            <idno type="STC">Wing M306</idno>
+            <idno type="STC">ESTC R43416</idno>
+            <idno type="EEBO-CITATION">27450878</idno>
+            <idno type="OCLC">ocm 27450878</idno>
+            <idno type="VID">110121</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A51588)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 110121)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1726:4)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A copy of verses presented to all my worthy masters and mistrisses in the parish of St. Mary Newington-Buts, in Southwark by William Major, bell-man.</title>
+                  <author>Major, William, bell-man.</author>
+               </titleStmt>
+               <extent>1 sheet ([1] p.).   </extent>
+               <publicationStmt>
+                  <publisher>Printed by John Wallis ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>Anno Dom. 1689.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Imperfect: stained, and tightly bound, with loss of text.</note>
+                  <note>Reproduction of original in Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2007-12</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2008-01</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-03</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2011-03</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="topical_verses">
+            <pb facs="tcp:110121:1" rendition="simple:additions"/>
+            <head>A COPY OF VERSES PRESENTED <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o all my Worthy Maſters and Miſtriſſes, In the Pariſh of St. <hi>Mary Newington-Buts,</hi> in <hi>Southwark.</hi>
+            </head>
+            <byline>By WILLIAM MAJOR, Bell-man.</byline>
+            <p>
+               <figure>
+                  <figDesc>depiction of William Major, Bellman</figDesc>
+               </figure>
+            </p>
+            <lg>
+               <head>The PROLOGUE.</head>
+               <l>Leaving all Paths by me before times trod,</l>
+               <l>I now reſolve to take another rode;</l>
+               <l>That Muſe, that lately Womens Vertues prais'd,</l>
+               <l>And to their Honours laſting, Toophies rais'd.</l>
+               <l>Muſt leave her own dear Sex and Court the men,</l>
+               <l>That they and I may once be Friends again;</l>
+               <l>For ſhhuld we not do this I dare to ſwear,</l>
+               <l>I muſt not Ring my Bell another year.</l>
+            </lg>
+            <lg>
+               <head>Of Men in General.</head>
+               <l>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n his Makers Image, and the Crown</l>
+               <l>all the Works which in ſix days were done,</l>
+               <l>man the <hi>Monarch</hi> of the Univerſe,</l>
+               <l>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nto Dame Nature and would peirce</l>
+               <l>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n it ſelf, had he but power to do,</l>
+               <l>
+                  <gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>menſe deſires would prompt him to;</l>
+               <l>
+                  <gap reason="illegible" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ite, to man theſe Lines I give</l>
+               <l>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>uch to Gain, by ſuch to Live.</l>
+            </lg>
+            <lg>
+               <head>Their Vertues.</head>
+               <l>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>an an Impious Creature or a Rude</l>
+               <l>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ormed Lump, devoyd of Fortitude,</l>
+               <l>
+                  <gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ove, Juſtice, given to all Vice,</l>
+               <l>
+                  <gap reason="illegible" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>e, Contention, Avarice,</l>
+               <l>
+                  <gap reason="illegible" extent="2+ letters">
+                     <desc>••…</desc>
+                  </gap>on beat Hemp, as ſing their praiſe</l>
+               <l>Adorn their Heads with Bayes.</l>
+               <l>
+                  <gap reason="illegible" extent="2+ letters">
+                     <desc>••…</desc>
+                  </gap>y good Embrace, avoyd all Ill,</l>
+               <l>Commend them, and I will.</l>
+            </lg>
+            <lg>
+               <head>A Prudent man.</head>
+               <l>
+                  <gap reason="illegible" extent="3+ letters">
+                     <desc>•••…</desc>
+                  </gap>e, thou ballaſt of mankind, O how</l>
+               <l>
+                  <gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> directed by thee here below!</l>
+               <l>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ndued, man tak<gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Lofty flight,</l>
+               <l>
+                  <hi>Eagle</hi> ſoars quite out of ſight,</l>
+               <l>
+                  <gap reason="illegible" extent="3+ letters">
+                     <desc>•••…</desc>
+                  </gap>'s coming, and prevents what's Ill</l>
+               <l>
+                  <gap reason="illegible" extent="3+ letters">
+                     <desc>•••…</desc>
+                  </gap>s Meaſures with ſuch curious Skill,</l>
+               <l>all others are compell'd to fall</l>
+               <l>is Ground, and hath no harm at all.</l>
+            </lg>
+            <lg>
+               <head>On a Learned man.</head>
+               <l>
+                  <gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> piece of grave Impertinence,</l>
+               <l>
+                  <gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> ſtor'd with all, but Reaſon, Wit, and Senſe,</l>
+               <l>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s fit for nought at moſt,</l>
+               <l>to make a Whipping-Poſt.</l>
+               <l>Ingeneous Spark, (whoſe Learning known)</l>
+               <l>call the Univerſe his own;</l>
+               <l>
+                  <gap reason="illegible" extent="2+ letters">
+                     <desc>••…</desc>
+                  </gap>dge, while humble Supplicants greet</l>
+               <l>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>heir Praiſes, proſtrate at his Feet.</l>
+            </lg>
+            <lg>
+               <head>On a Pious man.</head>
+               <l>
+                  <gap reason="illegible" extent="3+ letters">
+                     <desc>•••…</desc>
+                  </gap>ly Prudence, humane Learning wee</l>
+               <l>
+                  <gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>quire without true piery;</l>
+               <l>
+                  <gap reason="illegible" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>ompliſhments, like Morning dew,</l>
+               <l>
+                  <gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Vaniſh, and forſake us too.</l>
+               <l>that ſpark of Heavenly Fire,</l>
+               <l>our Souls up to the Clouds aſpire,</l>
+               <l>to Earth, we once have farewell given</l>
+               <l>
+                  <gap reason="illegible" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ows us with the Joys of Heaven.</l>
+            </lg>
+            <lg>
+               <head>On a Valiant man.</head>
+               <l>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hoſe undanted Courage nothing fears,</l>
+               <l>
+                  <gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>t Valiant are when Danger moſt appears,</l>
+               <l>
+                  <gap reason="illegible" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>ger calls, and Honour leads the way,</l>
+               <l>they follow, and with Pride Obey;</l>
+               <l>s as thick as Duſt, come rallying on</l>
+               <l>brag what Noble acts have done,</l>
+               <l>maintain their Poſts, they ſcorn to fly</l>
+               <l>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o means 'twixt Death and Victory.</l>
+            </lg>
+            <lg>
+               <head>On a Patient man.</head>
+               <l>
+                  <gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ttle heats that others ſo diſturb,</l>
+               <l>him are but diverſion, of a Curb</l>
+               <l>to hamper Anger, and digeſt</l>
+               <l>Ferments of his quiet breaſt:</l>
+               <l>
+                  <gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>fects of Paſion in another,</l>
+               <l>to ſuch, to learn them how to ſmother;</l>
+               <l>Unquietneſs which once confin'd,</l>
+               <l>quiet ſetles in the mind.</l>
+            </lg>
+            <lg>
+               <head>On a juſt man.</head>
+               <l>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> the threats or favours of a Crown</l>
+               <l>
+                  <gap reason="illegible" extent="2+ letters">
+                     <desc>••…</desc>
+                  </gap>ch mans whiſper, or a Proud mans Frown,</l>
+               <l>Pomps, and Pleaſures that do wait</l>
+               <l>Places and Affairs of State,</l>
+               <l>Can frighten or allure that ſetled mind,</l>
+               <l>Which to ſtrict Juſtice firmly is inclin'd.</l>
+               <l>No like a Rock he bravely ſteems the Tides,</l>
+               <l>And in the midſt of Danger ſafe abides.</l>
+            </lg>
+            <lg>
+               <head>On a Faithfull man.</head>
+               <l>GIve me the man on whom you may depend</l>
+               <l>Who will not leave you till your Journeys end,</l>
+               <l>Who faithfully dare ſerve you, whilſt he may</l>
+               <l>Let Death or Danger, or the Devil ſay nay,</l>
+               <l>To whom with confidence, you may impart</l>
+               <l>The very utmoſt Secrets of your heart,</l>
+               <l>Thrice happy they, who of ſuch Friends have ſtore</l>
+               <l>They have enough, they need not wiſh for more.</l>
+            </lg>
+            <lg>
+               <head>On a Charitable Man</head>
+               <l>FAith, Hope, and Charity, are three great things</l>
+               <l>To help us forewarned to the King of Kings,</l>
+               <l>They all are needfull, yet of all the three</l>
+               <l>The greateſt is the Grace of Charity,</l>
+               <l>And by the <hi>Apoſtle</hi> as it is expreſt,</l>
+               <l>It ſeems to be the glory of all the reſt,</l>
+               <l>If ſo, then Charitable men may doubtleſs claim</l>
+               <l>Then other men a more Illuſtrious name.</l>
+            </lg>
+            <lg>
+               <head>Application to my Maſters.</head>
+               <l>MY Faith is ſuch, that I believe of you</l>
+               <l>What theſe my Verſes offer to your view,</l>
+               <l>I think you Prudent, Pious, Learned, Stout,</l>
+               <l>Patient, Juſt, Faithfull, I make no doubt</l>
+               <l>You'r Charitable too, which if I find</l>
+               <l>All things ſucceed according to my mind,</l>
+               <l>But if you make me a Lyer, now I ſwear</l>
+               <l>I ſhall not dare to Write another year.</l>
+            </lg>
+            <lg>
+               <head>On the Times.</head>
+               <l>VVHat means this Clutter? did you ever ſee</l>
+               <l>Such great <hi>Canary-Birds</hi> take wings and flee</l>
+               <l>What <hi>Peters</hi> too? the Devil's in the Dice,</l>
+               <l>He that would make of us a Sacrifice,</l>
+               <l>Himſelf is packt away, a pretty Tool</l>
+               <l>(And as the <hi>Proverb</hi> ſays,) more Knave than Fool,</l>
+               <l>The Plots diſcover'd, and the Blade (if caught)</l>
+               <l>We need not doubt will ſurely goe to pot.</l>
+            </lg>
+            <lg>
+               <head>On the Princis's Army.</head>
+               <l>MArch on, brave Prince, Olet thy Troops March on</l>
+               <l>Ther's none to'oppoſe the day is clearly won,</l>
+               <l>March on, brave Prince, and let no time be loſt</l>
+               <l>Thy Foes have felt thy Courage to their coſt.</l>
+               <l>See with what eager, and ſubmiſſive Feet</l>
+               <l>All Real Proteſtants his Highneſs greet,</l>
+               <l>He comes they cry, our Laws he will reſtore</l>
+               <l>And keep us from all Popiſh Force and Power.</l>
+            </lg>
+            <lg>
+               <head>On Popiſh Intrigues.</head>
+               <l>VVHat are your Meaſures countermind? and how?</l>
+               <l>Would not the <hi>Engliſh</hi> to your Idols bow?</l>
+               <l>Would they not Stoop t'aboliſh Teſts and Laws?</l>
+               <l>Or like dull Cowards tamely yield their Cauſe?</l>
+               <l>One would have thought the <hi>Jeſuite Grew,</hi>
+               </l>
+               <l>Could have outwitted Men and Devils too,</l>
+               <l>But now their Policies are overcome,</l>
+               <l>The Hereticks have been too hard for <hi>Rome.</hi>
+               </l>
+            </lg>
+            <lg>
+               <head>Farewell to Popery.</head>
+               <l>FArewell, unholy holyneſs, farewell,</l>
+               <l>Thou Seed of <hi>Lucifer,</hi> and Spawn of <hi>Hell,</hi>
+               </l>
+               <l>Pack up thy Trinkets go, and come no more</l>
+               <l>This Land hath had too much of thee before,</l>
+               <l>We likewiſe felt thy kindneſs now of late,</l>
+               <l>Which was to Ruine both our Church and State;</l>
+               <l>But ſee how Providence hath turn'd the Dice,</l>
+               <l>You ran the Race but we have got the Price.</l>
+            </lg>
+            <lg>
+               <head>To the Weavers.</head>
+               <l>MAſters, ith' midſt of Plenty ne're be poore</l>
+               <l>Of Orange colour'd Ribbon make good ſtore,</l>
+               <l>You need not fear the Vent, you need not fear</l>
+               <l>But every man would fain his Colours wear,</l>
+               <l>All hands to work, that thing no Drug can be</l>
+               <l>That ſhews you what hath Baniſht <hi>Popery,</hi>
+               </l>
+               <l>And while you work, you merrily may ſing</l>
+               <l>Twas Orange, Orange only did the thing.</l>
+            </lg>
+            <lg>
+               <head>On my ſelf.</head>
+               <l>VVHen I am Drinking, Wife to the <hi>Ale-Houſe</hi> comes</l>
+               <l>And like a Devil fires all her Bombs,</l>
+               <l>I ſimply on her Arm perhaps lay hold</l>
+               <l>And cry O do not, prethee do not ſcold</l>
+               <l>A douze oth'Chaps, or out thou Drunken Cur,</l>
+               <l>Is all the anſwer I can have from her;</l>
+               <l>I muſt go with her, let who will ſay nay,</l>
+               <l>If She commands I dare not diſobey.</l>
+            </lg>
+            <lg>
+               <head>My Wives Anſwer.</head>
+               <l>COxcomb tell true, did I er'e fetch you home,</l>
+               <l>Unleſs your ſelf commanded me to come</l>
+               <l>Did I er'e Scold, or call you Drunken Whelp</l>
+               <l>This is a Devliſh Lye ſo God me help,</l>
+               <l>Faith Maſters, I ſay you'r as bad as he</l>
+               <l>If you believe him when he rails at me,</l>
+               <l>He knows 'tis falſe yet hath the Brazen-Face,</l>
+               <l>To Publiſh Lies to bring me to diſgrace.</l>
+            </lg>
+            <lg>
+               <head>The EPILOGUE</head>
+               <l>Maſters, believe me, I have wrrt enough,</l>
+               <l>And too much too, unleſs 'twas better ſtuff.</l>
+               <l>But as it is, accept it in good part,</l>
+               <l>And <hi>Major</hi> will rejoyce with all his heart.</l>
+               <l>And this I promiſe you if er'e I do</l>
+               <l>Commence a POET I'le be kind to yo you.</l>
+               <l>But till ſuch time I hope you'll be ſo kind,</l>
+               <l>To give me what I want, you know my mind.</l>
+            </lg>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>
+               <hi>LONDON:</hi> Printed by <hi>John Wallis,</hi> in <hi>White-Fryers, Anno. Dom.</hi> 1689.</p>
+         </div>
+      </back>
+   </text>
+</TEI>
